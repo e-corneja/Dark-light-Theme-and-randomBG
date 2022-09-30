@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  margin: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-top: 98px;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  color: #444444;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #242424;
+}
+
+.wrapper {
+  display: flex;
+}
+
+svg.sun {
+  fill: rgb(126, 126, 126);
+  width: 40px;
+  cursor: pointer;
+}
+
+svg.moon {
+  width: 40px;
+  fill: #7e7e7e;
+  cursor: pointer;
+}
+
+.theme {
+  flex-direction: row;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #7e7e7e;
+  background: #fff;
+  border: none;
+  border-radius: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
